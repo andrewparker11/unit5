@@ -1,12 +1,10 @@
 #Andrew Parker
 #11/13/17
-#listDemo.py - print out first and last words in a list 
+#wordSort.py - Alphabetical word sort
 
 words = input('Enter some words: ').split(' ')
+words.sort()
 
-
-
-#print out the list one item per line
 for w in words:
     print(w)
     
