@@ -4,10 +4,8 @@
 
 words = input('Enter some words: ').split(' ')
 
-if 
-middle = len(words)/2
-middleWords = words[middle:middle+2]
-for w in words:
-    print(w)
+mid = len(words)/2
+midWords = words[mid:mid]
+print(midWords)
     
 
