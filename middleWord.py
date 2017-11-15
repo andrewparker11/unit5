@@ -8,7 +8,7 @@ dictionary = [words]
 mid = len(words)//2
 
 if len(words)%2 == 0:
-        print(words[mid:mid+1]
+        print(words[mid:mid+2])
 else: 
         print(words[mid])
 
