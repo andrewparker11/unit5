@@ -3,7 +3,6 @@
 #middleWord.py - prints middle word
 
 words = input('Enter some words: ').split(' ')
-dictionary = [words]
 
 mid = len(words)//2 -1
 
