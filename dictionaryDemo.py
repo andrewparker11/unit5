@@ -10,5 +10,6 @@ dictionary.sort()
 
 number = int(input('What number word do you want to look up? '))
 if number>len(dictionary):
-    print('Invalid')
-print('Word number', number, 'is', dictionary[-1])
+    print(number, 'is an invalid choice')
+else:
+    print('Word number', number, 'is', dictionary[-1])
