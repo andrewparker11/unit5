@@ -5,6 +5,8 @@
 words = input('Enter some words: ').split(' ')
 words.sort()
 
-print(words)
-print(words[0])
+i = 0
+for w in words:
+    if word[i] > 
+
   
