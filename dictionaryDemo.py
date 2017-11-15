@@ -1,8 +1,6 @@
 #Andrew Parker
 #11/15/17
-#dictionaryDemo.py - list practice 
-
-words = input('Enter some words: ').split(' ')
+#dictionaryDemo.py - lists practice
 
 dictionary = ['alphabet','sweatshirt','sweatpants','shorts','computer','waterbottle']
 
