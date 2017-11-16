@@ -14,23 +14,23 @@ blackOutline = LineStyle(1,black) #pixels, color
 def mouseClick(event):
     num = randint(1,10)
     if num == 1:
-        color = white
+        color = colors[0]
     elif num == 2:
-        color = black
+        color = colors[1]
     elif num == 3:
-        color = red
+        color = colors[2]
     elif num == 4:
-        color = yellow
+        color = colors[3]
     elif num == 5:
-        color = orange
+        color = colors[4]
     elif num == 6:
-        color = green
+        color = colors[5]
     elif num == 7:
-        color = lightBlue
+        color = colors[6]
     elif num == 8:
-        color = blue
+        color = colors[7]
     elif num == 9:
-        color = purple
+        color = colors[8]
     else:
         color = darkPink
         
