@@ -7,13 +7,11 @@ from random import randint
 
 numbers = []
 for i in range(1,21):
-    numbers.append(randint)
+    numbers.append(randint(1,20))
 
-numbers.sort()
-
-print(numbers[0])
-print(numbers[20])
-print(numbers)
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
     
 
 
