@@ -6,13 +6,9 @@ words = input('Enter some words: ').split(' ')
 
 word = "" 
 
-for w in word:
-    if 
-
 i = 0
 for w in words:
     length = len(w)
     if length > i:
         i = length
-
-  
+print(w)
