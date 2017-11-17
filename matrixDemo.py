@@ -15,3 +15,5 @@ row = int(input('Enter a row number: '))
 col = int(input('Enter a col number: '))
 
 board[row][col] = 'X'
+
+printBoard()
