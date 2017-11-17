@@ -2,7 +2,6 @@
 #11/17/17
 #matrixDemo.py - how to create/use a matrix
 
-board = [['a','b','c'],['d','e','f'],['g','h','i']]
 
 def printBoard():
     for row in range(0,3):
@@ -10,3 +9,6 @@ def printBoard():
             print(board[row][col],' ',end = '') #end is keyword
         print()
 
+
+board = [['a','b','c'],['d','e','f'],['g','h','i']]
+printBoard()
