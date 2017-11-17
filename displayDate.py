@@ -2,6 +2,6 @@
 #11/17/17
 #displayDate.py - gives current date
 
-from datetime import 
+from datetime import date
 
-today = datetime.date.today() 
+today = date.today() 
