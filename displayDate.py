@@ -5,7 +5,7 @@
 from datetime import date
 
 today = date.today() 
-
+print('Today is',
 print(today.day)
 print(today.month)
 print(today.year)
