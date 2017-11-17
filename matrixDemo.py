@@ -1,4 +1,4 @@
-#Sam Smedinghoff
+#Andrew Parker
 #11/17/17
 #matrixDemo.py - how to create/use a matrix
 
