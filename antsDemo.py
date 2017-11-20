@@ -12,9 +12,9 @@ def step():
     for ant in data['antList']:
         dx = randint(-4,3)
         dy = randint(-4,3)
-        if ant.x + dx > 0 and ant,x + dx < WIDTH:
+        if ant.x + dx > 0 and ant.x + dx < WIDTH:
             ant.x += dx
-        if ant.y + dy > 0 and ant,x + dx < HEIGHT:
+        if ant.y + dy > 0 and ant.x + dx < HEIGHT:
             ant.y += dy
         
 
