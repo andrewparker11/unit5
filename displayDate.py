@@ -7,19 +7,19 @@ from datetime import date
 today = date.today() 
 day = ['Monday','Tuesday','Wednesday','Thursday','Friday']
 if today.weekday == 0:
-    day == 'Monday'
+    day = 'Monday'
 elif today.weekday == 1:
-    day == 'Tuesday'
+    day = 'Tuesday'
 elif today.weekday == 2:
-    day == 'Wednesday'
+    day = 'Wednesday'
 elif today.weekday == 3:
-    day == 'Thursday'
+    day = 'Thursday'
 elif today.weekday == 4:
-    day == 'Friday'
+    day = 'Friday'
 elif today.weekday == 5:
-    day == 'Saturday'
+    day = 'Saturday'
 elif today.weekday == 6:
-    day == 'Sunday'
+    day = 'Sunday'
 
 print(day)
 print(today.month)
