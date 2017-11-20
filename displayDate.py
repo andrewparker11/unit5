@@ -5,6 +5,7 @@
 from datetime import date
 
 today = date.today() 
+day = []
 print('Today is',)
 print(today.day)
 print(today.month)
