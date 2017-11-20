@@ -17,7 +17,7 @@ if __name__ == '__main__':
     data['antList'] = []
     
     for i in range(10):
-        Sprite(ant,(randint(1,WIDTH),randint(1,HEIGHT)))
+        data['antList'].append(Sprite(ant,(randint(1,WIDTH),randint(1,HEIGHT))))
 
     
     App().run()
