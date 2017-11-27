@@ -1,6 +1,6 @@
 #Andrew Parker
 #11/15/17
-#sorting.py - code to test a sorting function
+#cocktailSort.py - implementation of cocktail sort
 
 from random import randint
 from time import time
