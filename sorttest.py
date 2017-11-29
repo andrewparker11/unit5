@@ -9,7 +9,7 @@ N = 100 #how many numbers will be sorted
 
 def mySort(L):
     procedure optimizedGnomeSort(a[]):
-        for pos in 1 to length(a):
+        for pos in range(1,length(a)):
             gnomeSort(a, pos)
     procedure gnomeSort(a[], upperBound):
         pos := upperBound
