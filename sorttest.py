@@ -8,7 +8,14 @@ from time import time
 N = 100 #how many numbers will be sorted
 
 def mySort(L):
-    #put your code here
+    procedure optimizedGnomeSort(a[]):
+        for pos in 1 to length(a):
+            gnomeSort(a, pos)
+    procedure gnomeSort(a[], upperBound):
+        pos := upperBound
+        while pos > 0 and a[pos-1] > a[pos]:
+            swap a[pos-1] and a[pos]
+            pos := pos - 1
     return L
 
 if __name__ == '__main__':
