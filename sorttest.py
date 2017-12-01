@@ -13,7 +13,7 @@ def mySort(L):
         if pos == 0 or L[pos] >= L[pos-1]:
             pos = pos + 1
         else:
-            swap L[pos] and L[pos-1]
+            L[pos], L[pos-1] = L[pos-1], L[pos]
             pos = pos - 1
     return L 
     
