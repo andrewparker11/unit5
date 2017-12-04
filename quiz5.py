@@ -13,6 +13,15 @@ def biggest(x):
     return biggest
 print(biggest([2,4,6]))
 
+
+
+
+y = []
+def rand5():
+    y.append('randint(0,101)')
+    
+print(rand5())
+        
 """
 #rand5
 from random import randint
@@ -35,9 +44,5 @@ def last(x):
     return lastE
 
 print(last(['cat','dog','rat']))
-
-
-
-
 
 
