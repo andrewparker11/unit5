@@ -19,6 +19,12 @@ print(biggest([2,4,6]))
 y = []
 def rand5():
     y.append('randint(0,101)')
+    y.append('randint(0,101)')
+    y.append('randint(0,101)')
+    y.append('randint(0,101)')
+    y.append('randint(0,101)')
+    
+    return y
     
 print(rand5())
         
