@@ -3,7 +3,6 @@
 #biggest
 
 def biggest(x):
-    y = []
     for i in x:
         if x[0]>x[1] and x[0]>x[2]:
             biggest = x[0]
@@ -13,3 +12,18 @@ def biggest(x):
             biggest = x[2]
     return biggest
 print(biggest([2,4,6]))
+
+
+#rand5
+from random import randint
+
+
+def rand5(x):
+    i = 0
+    y = []
+    while y<6:
+        y.append('randint(0,101)')
+    i = i + 1
+print(rand5())
+        
+#
