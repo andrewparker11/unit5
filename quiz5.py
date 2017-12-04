@@ -16,8 +16,9 @@ print(biggest([2,4,6]))
 
 
 
-y = []
+
 def rand5():
+    y = []
     y.append('randint(0,101)')
     y.append('randint(0,101)')
     y.append('randint(0,101)')
@@ -36,7 +37,7 @@ from random import randint
 def rand5(x):
     i = 0
     y = []
-    while y<6:
+    while i<6:
         y.append('randint(0,101)')
     i = i + 1
 print(rand5())
