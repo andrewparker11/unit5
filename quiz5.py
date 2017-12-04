@@ -13,7 +13,7 @@ def biggest(x):
     return biggest
 print(biggest([2,4,6]))
 
-
+"""
 #rand5
 from random import randint
 
@@ -26,4 +26,18 @@ def rand5(x):
     i = i + 1
 print(rand5())
         
-#
+"""
+
+#lastElement
+
+def last(x):
+    lastE = last[-1]
+    return lastE
+
+print(last(['cat','dog','rat']))
+
+
+
+
+
+
